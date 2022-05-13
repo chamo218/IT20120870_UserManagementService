@@ -83,30 +83,37 @@
 		      			<div class="d-flex justify-content-center align-items-center h-100">
 		        			<div class="text-white">
 		          
-		          			<h1 class="mb-3">Welcome to ElectroGrid</h1>
+		          			<h1 class="mb-3">User Management</h1>
 		   
-							<h4 >User Management</h4>
 				
 							<form id="formUser" name="formUser">
-								Name:
-						 		<input id="name" name="name" type="text"
-						 				class="form-control form-control-sm">
-						 
-						 		<br> Phone Number:
-						 		<input id="phone" name="phone" type="text"
-						 				class="form-control form-control-sm">
-						 
-						 		<br> Address:
-						 		<input id="address" name="address" type="text"
-						 				class="form-control form-control-sm">
-						 
-						 		<br> Email Address:
-								<input id="email" name="email" type="text"
-						 				class="form-control form-control-sm">
-						 
-						 		<br> Password:
-								<input id="password" name="password" type="password"
-						 				class="form-control form-control-sm">
+								
+								<div class="form-outline mb-4">
+									<label class="form-label">Name</label>
+							 		<input id="name" type="text" name="name" class="form-control form-control-lg" />
+								</div>
+						 	
+						 		<div class="form-outline mb-4">
+									<label class="form-label">Phone Number</label>
+							 		<input id="phone" type="text" name="phone" class="form-control form-control-lg" />
+								</div>
+						 		
+						 		
+						 		<div class="form-outline mb-4">
+									<label class="form-label">Address</label>
+							 		<input id="address" type="text" name="address" class="form-control form-control-lg" />
+								</div>
+						 		
+						 		<div class="form-outline mb-4">
+									<label class="form-label">Email Address</label>
+							 		<input id="email" type="text" name="email" class="form-control form-control-lg" />
+								</div>
+								
+								<div class="form-outline mb-4">
+									<label class="form-label">Password</label>
+							 		<input id="password" type="text" name="password" class="form-control form-control-lg" />
+								</div>
+								
 						 				
 						 		<br>
 						 		<input id="btnSave" name="btnSave" type="button" value="Save"
